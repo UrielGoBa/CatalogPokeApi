@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    height: 100vh;
+    
 }
 .menu > menu{
     list-style-type: none;
@@ -24,7 +24,7 @@ menu > li{
 .menu li:hover{
     background-color: rgb(161, 82, 82);
 }
-#footer{
+.footer{
     display:flex;
     justify-content: right;
     padding-right: 1rem;
@@ -33,16 +33,16 @@ menu > li{
     color:white;
 }
 #content{
-    height: calc(100vh - 230px);
+    height: calc(100vh - 211px);
     background-color: cyan;
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 30px;
-    font-size: 1.6rem;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    
 }
 .CatalogoPokemones{
     flex-flow: row wrap;
@@ -52,7 +52,14 @@ menu > li{
     font-size: 15px;
     text-align: Center;
 }
-#siguiente{
+.siguiente{
     display:flex;
     justify-content: space-around;
+    background-color: #ccc;
+    margin: 0 auto;
+    color:black;
+}
+#separador{
+    height: 50px;
+    background-color: cyan;
 }
